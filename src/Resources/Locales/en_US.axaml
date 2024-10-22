@@ -302,6 +302,7 @@
   <x:String x:Key="Text.GitLFS.Fetch.Tips" xml:space="preserve">Run `git lfs fetch` to download Git LFS objects. This does not update the working copy.</x:String>
   <x:String x:Key="Text.GitLFS.Install" xml:space="preserve">Install Git LFS hooks</x:String>
   <x:String x:Key="Text.GitLFS.Locks" xml:space="preserve">Show Locks</x:String>
+  <x:String x:Key="Text.GitLFS.UnlockAllOfMyLocks" xml:space="preserve">Unlock All of my Locks</x:String>
   <x:String x:Key="Text.GitLFS.Locks.Empty" xml:space="preserve">No Locked Files</x:String>
   <x:String x:Key="Text.GitLFS.Locks.Lock" xml:space="preserve">Lock</x:String>
   <x:String x:Key="Text.GitLFS.Locks.OnlyMine" xml:space="preserve">Show only my locks</x:String>

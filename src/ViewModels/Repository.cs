@@ -1256,6 +1256,16 @@ namespace SourceGit.ViewModels
 
                 menu.Items.Add(new MenuItem() { Header = "-" });
                 menu.Items.Add(locks);
+                
+                var unlockAllOfMyLocks = new MenuItem();
+                unlockAllOfMyLocks.Header = App.Text("GitLFS.UnlockAllOfMyLocks");
+                unlockAllOfMyLocks.Icon = App.CreateMenuIcon("Icons.Unlock");
+                unlockAllOfMyLocks.Click += (_, e) =>
+                {
+                    Console.WriteLine("Unlocking all locks...");
+                    e.Handled = true;
+                };
+                menu.Items.Add(unlockAllOfMyLocks);
             }
             else
             {
